@@ -27,6 +27,7 @@ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p{
       margin-top: 1rem;
       border-radius: 2rem !important;
       background-color: #1b1f1c !important;
+      color: #79827b !important;
     }
     .dropdown:hover>.dropdown-toggle{
         background: #121110 !important;
@@ -73,6 +74,7 @@ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p{
     /* max-height: 3rem; */
 }
 .title-hot{
+    padding-top: 2rem;
     min-height: 3rem;
     color:yellow ;
     font-weight:600;
@@ -82,7 +84,67 @@ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p{
 .content{
     background:url(../img/bg-content.png);
     background-repeat: repeat;
+    border-bottom: 3px solid yellow;
 }
 .slide-hot{
     margin-top: 1rem;
+}
+.card-body{
+    background: #21201d !important;
+    height: 13rem !important;
+    
+}
+.card-title{
+    color: orange !important;
+    opacity: 0.0 - 1.0 !important ;
+}
+.card-text{
+    color: white !important;
+}
+.new-film{
+    color: #8d968f;
+    background: #272e29;
+    padding-top: 0.3rem;
+}
+.new-film:hover{
+    color: white;
+    cursor: pointer;
+}
+.new-film:active{
+    background: #171a18;
+    color: blue;
+    
+}
+.all-film{
+    background: #272e29;
+}
+.list-group-item{
+    background: #272e29 !important;
+    color: white;
+    border:none !important
+}
+.h38rem{
+    height: 38rem;
+    margin: 0 auto;
+    padding:0;
+}
+.ads{
+    /* float:inline-start; */
+}
+.footer{
+    background: url(../img/bg.png);
+    padding-top: 1rem;
+    background-repeat: repeat;
+}
+
+.ip{
+    color: white;
+}
+.ft-title{
+    color: #2c8eb8;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.ua{
+    color: white;
 }
